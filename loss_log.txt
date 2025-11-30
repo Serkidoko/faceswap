@@ -1,0 +1,38 @@
+================ Training Loss (Sun Nov 30 19:37:09 2025) ================
+================ Training Loss (Sun Nov 30 19:39:19 2025) ================
+================ Training Loss (Sun Nov 30 19:42:02 2025) ================
+================ Training Loss (Sun Nov 30 19:45:28 2025) ================
+================ Training Loss (Sun Nov 30 19:46:58 2025) ================
+( step: 4199, ) G_Loss: 2.891 G_ID: 0.130 G_Rec: 9.447 G_feat_match: 2.008 D_fake: 0.036 D_real: 0.025 D_loss: 0.060 
+================ Training Loss (Sun Nov 30 19:52:34 2025) ================
+================ Training Loss (Sun Nov 30 19:53:48 2025) ================
+================ Training Loss (Sun Nov 30 19:54:23 2025) ================
+( step: 4199, ) G_Loss: 3.077 G_ID: 0.157 G_Rec: 7.822 G_feat_match: 2.108 D_fake: 0.059 D_real: 0.057 D_loss: 0.116 
+( step: 4399, ) G_Loss: 3.642 G_ID: 0.114 G_Rec: 5.095 G_feat_match: 2.021 D_fake: 0.007 D_real: 0.022 D_loss: 0.029 
+( step: 4599, ) G_Loss: 3.939 G_ID: 0.104 G_Rec: 5.762 G_feat_match: 2.005 D_fake: 0.000 D_real: 0.000 D_loss: 0.000 
+( step: 4799, ) G_Loss: 4.885 G_ID: 0.147 G_Rec: 5.248 G_feat_match: 2.001 D_fake: 0.001 D_real: 0.060 D_loss: 0.060 
+( step: 4999, ) G_Loss: 5.048 G_ID: 0.152 G_Rec: 7.614 G_feat_match: 2.090 D_fake: 0.004 D_real: 0.000 D_loss: 0.004 
+( step: 5199, ) G_Loss: 4.913 G_ID: 0.085 G_Rec: 6.729 G_feat_match: 1.949 D_fake: 0.007 D_real: 0.002 D_loss: 0.008 
+( step: 5399, ) G_Loss: 3.854 G_ID: 0.221 G_Rec: 6.519 G_feat_match: 2.128 D_fake: 0.017 D_real: 0.000 D_loss: 0.017 
+( step: 5599, ) G_Loss: 3.842 G_ID: 0.060 G_Rec: 6.811 G_feat_match: 1.944 D_fake: 0.001 D_real: 0.000 D_loss: 0.001 
+( step: 5799, ) G_Loss: 5.258 G_ID: 0.041 G_Rec: 4.667 G_feat_match: 1.843 D_fake: 0.003 D_real: 0.000 D_loss: 0.003 
+( step: 5999, ) G_Loss: 5.413 G_ID: 0.103 G_Rec: 6.156 G_feat_match: 1.996 D_fake: 0.000 D_real: 0.027 D_loss: 0.027 
+( step: 6199, ) G_Loss: 6.615 G_ID: 0.072 G_Rec: 6.624 G_feat_match: 1.908 D_fake: 0.019 D_real: 0.000 D_loss: 0.020 
+( step: 6399, ) G_Loss: 5.029 G_ID: 0.155 G_Rec: 3.981 G_feat_match: 2.054 D_fake: 0.031 D_real: 0.000 D_loss: 0.031 
+( step: 6599, ) G_Loss: 4.361 G_ID: 0.047 G_Rec: 6.424 G_feat_match: 1.916 D_fake: 0.030 D_real: 0.000 D_loss: 0.030 
+( step: 6799, ) G_Loss: 5.797 G_ID: 0.081 G_Rec: 6.216 G_feat_match: 1.901 D_fake: 0.000 D_real: 0.005 D_loss: 0.005 
+( step: 6999, ) G_Loss: 5.488 G_ID: 0.028 G_Rec: 5.277 G_feat_match: 1.678 D_fake: 0.000 D_real: 0.000 D_loss: 0.000 
+( step: 7199, ) G_Loss: 5.642 G_ID: 0.069 G_Rec: 3.618 G_feat_match: 1.723 D_fake: 0.000 D_real: 0.002 D_loss: 0.002 
+( step: 7399, ) G_Loss: 5.260 G_ID: 0.028 G_Rec: 3.536 G_feat_match: 1.677 D_fake: 0.011 D_real: 0.000 D_loss: 0.011 
+( step: 7599, ) G_Loss: 5.344 G_ID: 0.032 G_Rec: 5.975 G_feat_match: 1.715 D_fake: 0.018 D_real: 0.000 D_loss: 0.018 
+( step: 7799, ) G_Loss: 6.737 G_ID: 0.071 G_Rec: 5.013 G_feat_match: 1.796 D_fake: 0.002 D_real: 0.317 D_loss: 0.319 
+( step: 7999, ) G_Loss: 4.746 G_ID: 0.038 G_Rec: 4.542 G_feat_match: 1.753 D_fake: 0.019 D_real: 0.008 D_loss: 0.027 
+( step: 8199, ) G_Loss: 4.494 G_ID: 0.042 G_Rec: 4.568 G_feat_match: 1.685 D_fake: 0.008 D_real: 0.000 D_loss: 0.008 
+( step: 8399, ) G_Loss: 5.875 G_ID: 0.045 G_Rec: 4.523 G_feat_match: 1.793 D_fake: 0.000 D_real: 0.002 D_loss: 0.002 
+( step: 8599, ) G_Loss: 5.257 G_ID: 0.029 G_Rec: 4.266 G_feat_match: 1.572 D_fake: 0.007 D_real: 0.000 D_loss: 0.007 
+( step: 8799, ) G_Loss: 4.802 G_ID: 0.075 G_Rec: 2.080 G_feat_match: 1.961 D_fake: 0.000 D_real: 0.001 D_loss: 0.001 
+( step: 8999, ) G_Loss: 5.390 G_ID: 0.026 G_Rec: 4.073 G_feat_match: 1.626 D_fake: 0.006 D_real: 0.002 D_loss: 0.008 
+( step: 9199, ) G_Loss: 6.358 G_ID: 0.070 G_Rec: 4.800 G_feat_match: 1.926 D_fake: 0.005 D_real: 0.022 D_loss: 0.027 
+( step: 9399, ) G_Loss: 5.272 G_ID: 0.043 G_Rec: 4.204 G_feat_match: 1.761 D_fake: 0.000 D_real: 0.016 D_loss: 0.016 
+( step: 9599, ) G_Loss: 5.846 G_ID: 0.076 G_Rec: 4.155 G_feat_match: 1.873 D_fake: 0.034 D_real: 0.000 D_loss: 0.034 
+( step: 9799, ) G_Loss: 4.785 G_ID: 0.111 G_Rec: 3.046 G_feat_match: 1.784 D_fake: 0.000 D_real: 0.003 D_loss: 0.003 
