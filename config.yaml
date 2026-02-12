@@ -1,0 +1,78 @@
+# ================================
+# Face Swap Fine-Tuning Config
+# Low-Data Identity Scenario
+# ================================
+
+# -------- General --------
+experiment_name: faceswap_low_data_finetune
+seed: 42
+device: cuda        # cuda | cpu
+num_workers: 4
+
+# -------- Dataset --------
+dataset:
+  train_dir: ./data/train
+  val_dir: ./data/val
+  image_size: 256
+  num_identities: 1          # low-data: single or few identities
+  images_per_identity: 5     # adjust based on your dataset
+
+# -------- Data Augmentation --------
+augmentation:
+  horizontal_flip: true
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.2
+    hue: 0.05
+  random_crop: false
+
+# -------- Model --------
+model:
+  base_model: SimSwap
+  pretrained_checkpoint: ./checkpoints/simswap_pretrained.pth
+
+  # Fine-tuning strategy
+  finetune:
+    freeze_backbone: true
+    trainable_modules:
+      - generator
+    freeze_identity_encoder: true
+
+# -------- Training --------
+training:
+  batch_size: 2              # small batch for low-data
+  num_step:200000
+  learning_rate: 0.0001
+  optimizer: adam
+  weight_decay: 0.00001
+
+  scheduler:
+    type: step
+    step_size: 15
+    gamma: 0.5
+
+# -------- Loss Weights --------
+loss:
+  reconstruction_weight: 10.0    # G_Rec
+  identity_weight: 1.0           # G_ID
+  feature_matching_weight: 2.0   # G_feat_match
+
+# -------- Logging --------
+logging:
+  log_interval: 200
+  save_checkpoint_interval: 1000
+  output_dir: ./outputs
+  log_dir: ./logs
+
+# -------- Evaluation --------
+evaluation:
+  save_visual_results: true
+  num_visual_samples: 10
+  compare_with_pretrained: true
+
+# -------- Notes --------
+notes: >
+  Fine-tuning SimSwap under low-data constraints.
+  Focus on identity preservation and visual stability
+  while avoiding overfitting.
